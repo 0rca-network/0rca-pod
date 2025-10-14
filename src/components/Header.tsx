@@ -35,7 +35,7 @@ export function Header({ onToggleSidebar, searchQuery, onSearchChange }: HeaderP
             <Search size={20} />
           </button>
           <img 
-            src="/0rca_cropped.png"
+            src="/0rca-Photoroom.svg"
             alt="0rca Protocol"
             className="h-8 md:h-10 w-8 md:w-10 rounded-full object-cover cursor-pointer hover:opacity-80 smooth-transition"
             onClick={() => window.open('https://0rca.network', '_blank')}
