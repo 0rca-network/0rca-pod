@@ -9,7 +9,7 @@ export function Footer() {
           {/* Left - Logo and Copyright */}
           <div className="flex items-center gap-4 justify-center md:justify-start">
             <ImageWithFallback 
-              src="https://images.unsplash.com/photo-1709770219221-1674c76c8897?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxvcmNhJTIwd2hhbGUlMjBtaW5pbWFsJTIwbG9nb3xlbnwxfHx8fDE3NjA0NzY2MzF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
+              src="/0rca-Photoroom.svg"
               alt="0rca Protocol"
               className="h-5 md:h-6 w-auto"
             />
