@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { useWallet } from "@txnlab/use-wallet-react"
-// import { Button } from "@/components/ui/button.tsx"
+import { Button } from "@/components/ui/button"
 import ConnectWalletModal from "./connect-wallet-modal"
 
 export function ConnectWalletButton() {
@@ -14,9 +14,9 @@ export function ConnectWalletButton() {
 
   return (
     <>
-      <button onClick={openModal} className="bg-[#63f2d2] hover:bg-[#3dd5b8] text-black mint-glow smooth-transition rounded-full px-3 md:px-6 text-sm">
+      <Button onClick={openModal} className="bg-[#63f2d2] hover:bg-[#3dd5b8] text-black mint-glow smooth-transition rounded-full px-3 md:px-6 text-sm">
         {activeAccount ? `${activeAccount.address.slice(0, 4)}...${activeAccount.address.slice(-4)}` : "Connect Wallet"}
-      </button>
+      </Button>
 
       <ConnectWalletModal wallets={wallets} isOpen={isModalOpen} onClose={closeModal} />
     </>
